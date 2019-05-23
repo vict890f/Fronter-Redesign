@@ -10,7 +10,7 @@ html {
 
 body {
     margin: 0;
-    background-color: white;
+    background-color: #FAF7F7;
 }
 
 img {
@@ -21,74 +21,98 @@ img {
     background-size: 100%;
     display: flex;
     flex-wrap: wrap;
+    align-content: space-around;
 }
 
 /*************Forside CSS************/
 
+#forside .box {}
 
 #materialer {
     width: 109.92px;
     height: 109.92px;
     background-color: red;
+    margin: 2px 2px 2px 2px;
+    background-image: url(assets/materialer.svg);
 }
 
 #skema {
     width: 109.92px;
     height: 109.92px;
     background-color: red;
-
+    margin: 2px 2px 2px 2px;
+    background-image: url(assets/skema.svg);
 }
 
 #notifikationer {
     width: 109.92px;
     height: 109.92px;
     background-color: red;
+    margin: 2px 2px 2px 2px;
+    background-image: url(assets/notifikationer.svg);
+
 }
 
 #techlounge {
-    width: 219.84px;
+    width: 223.84px;
     height: 109.92px;
     background-color: red;
+    margin: 2px 2px 2px 2px;
+    background-image: url(assets/techlounge.svg);
 }
 
 #mail {
     width: 109.92px;
     height: 109.92px;
     background-color: red;
+    margin: 2px 2px 2px 2px;
+    background-image: url(assets/mail.svg);
 }
 
 #aktuelt {
-    width: 219.84px;
-    height: 219.84px;
+    width: 223.84px;
+    height: 223.84px;
     background-color: red;
+    margin: 2px 2px 2px 2px;
+    background-image: url(assets/aktuelt.svg);
 }
 
 #afleveringer {
     width: 109.92px;
     height: 109.92px;
     background-color: red;
+    margin: 4px 2px 2px 2px;
+    background-image: url(assets/afleveringer.svg);
 }
 
 #soeg {
     width: 109.92px;
     height: 109.92px;
     background-color: red;
+    margin: 2px 2px 4px 2px;
+    background-image: url(assets/soeg.svg);
 }
 
 #random1 {
     width: 109.92px;
     height: 109.92px;
     background-color: red;
+    margin: 2px 2px 2px 2px;
+    background-image: url(assets/random.svg);
 }
 
 #random2 {
     width: 109.92px;
     height: 109.92px;
     background-color: red;
+    margin: 2px 2px 2px 2px;
+    background-image: url(assets/random.svg);
 }
 
 #random3 {
     width: 109.92px;
     height: 109.92px;
     background-color: red;
+    margin: 2px 2px 2px 2px;
+    background-image: url(assets/random.svg);
 }

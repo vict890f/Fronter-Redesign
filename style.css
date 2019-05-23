@@ -149,6 +149,7 @@ ul.list {
 ul.list li {
     width: 250px;
     margin-bottom: 10px;
+
 }
 
 ul.list li input {
@@ -158,9 +159,17 @@ ul.list li input {
     background-color: #ffffff;
     border-radius: 10px;
     text-align: center;
+    color: #EA5045;
 }
 
-ul.list li input[type="button"] {
+ul.list li input[name="Submit"] {
     background-color: #EA5045;
     color: #fff;
+}
+
+
+ul.list li input[name="Facebook"] {
+    background-color: #fff;
+    color: #EA5045;
+    border: 2px solid #EA5045;
 }

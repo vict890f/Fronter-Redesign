@@ -1,0 +1,94 @@
+/****************************  GENERELT ****************************/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+img {
+    width: 100%;
+}
+
+.sectionwrapper {
+    background-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*************Forside CSS************/
+
+
+#materialer {
+    width: 109.92px;
+    height: 109.92px;
+    background-color: red;
+}
+
+#skema {
+    width: 109.92px;
+    height: 109.92px;
+    background-color: red;
+
+}
+
+#notifikationer {
+    width: 109.92px;
+    height: 109.92px;
+    background-color: red;
+}
+
+#techlounge {
+    width: 219.84px;
+    height: 109.92px;
+    background-color: red;
+}
+
+#mail {
+    width: 109.92px;
+    height: 109.92px;
+    background-color: red;
+}
+
+#aktuelt {
+    width: 219.84px;
+    height: 219.84px;
+    background-color: red;
+}
+
+#afleveringer {
+    width: 109.92px;
+    height: 109.92px;
+    background-color: red;
+}
+
+#soeg {
+    width: 109.92px;
+    height: 109.92px;
+    background-color: red;
+}
+
+#random1 {
+    width: 109.92px;
+    height: 109.92px;
+    background-color: red;
+}
+
+#random2 {
+    width: 109.92px;
+    height: 109.92px;
+    background-color: red;
+}
+
+#random3 {
+    width: 109.92px;
+    height: 109.92px;
+    background-color: red;
+}

@@ -116,3 +116,51 @@ img {
     margin: 2px 2px 2px 2px;
     background-image: url(assets/random.svg);
 }
+
+/************log-in page CSS************/
+
+#loginpage .top {
+    width: 375px;
+    height: 226.46px;
+    background-image: url(assets/kea%20logo.svg);
+
+}
+
+#loginpage .bund {
+    width: 375px;
+    height: 587px;
+    background-color: #FAF7F7;
+
+}
+
+.form-container {
+    width: 375px;
+    height: 587px;
+    padding: 20px 30px;
+    background-color: #FAF7F7;
+    border-radius: 10px;
+}
+
+ul.list {
+    list-style-type: none;
+    text-align: center;
+}
+
+ul.list li {
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+ul.list li input {
+    width: 250px;
+    padding: 8px 0px;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+ul.list li input[type="button"] {
+    background-color: #EA5045;
+    color: #fff;
+}

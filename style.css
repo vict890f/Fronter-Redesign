@@ -296,6 +296,12 @@ ul.list li input[name="Facebook"] {
     border-bottom: 1px solid #E2E8ED;
 }
 
+.modul {
+    width: 50vw;
+    height: 30vw;
+    background-color: lightgoldenrodyellow;
+}
+
 .break {
     width: 100vw;
     height: 5vw;

@@ -202,15 +202,10 @@ ul.list li input[name="Facebook"] {
     background-color: #fff;
 }
 
-#skema-bund {
-    width: 375px;
-    height: 66.22px;
-    background-color: #3F3140;
-}
-
 #skema-info .col-left {
     width: 50vw;
     margin-top: 2vw;
+
 }
 
 #skema-info .col-right {
@@ -237,6 +232,9 @@ ul.list li input[name="Facebook"] {
 #skema-top .col-left {
     width: 40vw;
     height: 66.22px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
 }
 
 #skema-top .col-midt {
@@ -250,6 +248,23 @@ ul.list li input[name="Facebook"] {
     width: 40vw;
     height: 66.22px;
 }
+
+#skema-top .col-left-sprite {
+    width: 8vw;
+    height: 8vw;
+    background-image: url(assets/left-arrow.svg);
+    background-size: contain;
+    margin-top: 4vw;
+}
+
+#skema-top .col-right-sprite {
+    width: 8vw;
+    height: 8vw;
+    background-image: url(assets/right-arrow.svg);
+    background-size: contain;
+    margin-top: 4vw;
+}
+
 
 .skema-table {
     width: 100vw;
@@ -286,4 +301,28 @@ ul.list li input[name="Facebook"] {
     height: 5vw;
     background-color: #FAF7F7;
     border-bottom: 1px solid #E2E8ED;
+}
+
+#skema-bund {
+    width: 375px;
+    height: 66.22px;
+    background-color: #3F3140;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#skema-bund .skema-bund-left {
+    width: 8vw;
+    height: 8vw;
+    background-image: url(assets/left-arrow.svg);
+    background-size: contain;
+    margin-top: 4vw;
+}
+
+#skema-bund .skema-bund-right {
+    width: 8vw;
+    height: 8vw;
+    margin-top: 4vw;
+    color: white;
 }

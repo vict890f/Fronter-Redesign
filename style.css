@@ -203,11 +203,13 @@ nav #profilknap {
 }
 
 #menu {
+    margin: 0;
+    padding: 0;
     position: absolute;
-    top: 11vw;
+    top: 16vw;
     left: 0;
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     background-color: #3F3140;
     list-style-type: none;
 }
@@ -223,11 +225,15 @@ nav #profilknap {
 #menuliste {
     text-align: center;
     width: 100vw;
+    height: 72vh;
+    margin-top: 30vw;
 }
 
 #logud {
     width: 100vw;
-    background-color: grey;
+    background-color: #F58E81;
+    height: 16vw;
+
 }
 
 @media only screen and (min-width: 600px) {

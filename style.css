@@ -311,14 +311,6 @@ ul.list li input[name="Facebook"] {
     justify-content: center;
 }
 
-#skema-bund .skema-bund-left {
-    width: 8vw;
-    height: 8vw;
-    background-image: url(assets/left-arrow.svg);
-    background-size: contain;
-    margin-top: 4vw;
-}
-
 #skema-bund .skema-bund-right {
     width: 8vw;
     height: 8vw;
@@ -398,29 +390,25 @@ td.right {
     height: 21vw;
 }
 
-#modul1-folder {
-    background-image: url(assets/Folder.svg);
+#modul1-knap1 {
     position: relative;
     left: 62vw;
     top: -10vw;
 }
 
-#modul1-link {
-    background-image: url(assets/Folder.svg);
+#modul1-knap2 {
     position: relative;
     left: 62vw;
     top: -5vw;
 }
 
-#modul2-link {
-    background-image: url(assets/Folder.svg);
+#modul2-knap1 {
     position: relative;
     left: 62vw;
     top: -10vw;
 }
 
-#modul3-folder {
-    background-image: url(assets/Folder.svg);
+#modul3-knap1 {
     position: relative;
     left: 62vw;
     top: -10vw;
@@ -428,7 +416,80 @@ td.right {
 
 /*****Icons*******/
 
-.icon {
+.folder-icon {
     width: 5vw;
     height: 4vw;
+    background-image: url(assets/Folder.svg);
+}
+
+.link-icon {
+    width: 5vw;
+    height: 5.2vw;
+    background-image: url(assets/link.svg);
+}
+
+.download-icon {
+    width: 6.2vw;
+    height: 6.2vw;
+    background-image: url(assets/download.svg);
+}
+
+.skema-icon {
+    width: 5vw;
+    height: 5vw;
+    background-image: url(assets/skema-icon.svg);
+}
+
+/*Materialer*/
+#skema-materialer {
+    width: 375px;
+    height: 526px;
+    background-color: #fff;
+}
+
+#materialer1 {
+    top: 45vw;
+    left: 8vw;
+    position: absolute;
+    background-color: #F2F1F0;
+    width: 85vw;
+    height: 21vw;
+
+}
+
+#materialer2 {
+    top: 75vw;
+    left: 8vw;
+    position: absolute;
+    background-color: #F2F1F0;
+    width: 85vw;
+    height: 21vw;
+
+}
+
+#materialer3 {
+    top: 105vw;
+    left: 8vw;
+    position: absolute;
+    background-color: #F2F1F0;
+    width: 85vw;
+    height: 21vw;
+}
+
+#materialer1-knap1 {
+    position: relative;
+    left: 75vw;
+    top: 3vw;
+}
+
+#materialer2-knap1 {
+    position: relative;
+    left: 75vw;
+    top: -3vw;
+}
+
+#materialer3-knap1 {
+    position: relative;
+    left: 75vw;
+    top: 3vw;
 }

@@ -17,10 +17,33 @@ img {
     width: 100%;
 }
 
-h2,
-h3,
+h1 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    margin: 0;
+    font-family: 'Roboto-bold', sans-serif;
+    font-size: 1.3rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+    margin: 0;
+    font-family: 'Roboto-bold', sans-serif;
+}
+
+h4 {
+    font-size: 0.8rem;
+    margin: 0;
+    font-family: 'Roboto-bold', sans-serif;
+}
+
 p {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
 }
 
 .sectionwrapper {
@@ -32,96 +55,197 @@ p {
 
 /*************Forside CSS************/
 
-#forside .box {}
+#forside {
+    /*
+    margin-top: 4.5vw;
+    margin-left: 4.5vw;
+*/
+}
 
 #materialer {
-    width: 109.92px;
-    height: 109.92px;
-    background-color: red;
-    margin: 2px 2px 2px 2px;
+    width: 29.312vw;
+    height: 29.312vw;
+    margin: 1vw 1vw 1vw 1vw;
     background-image: url(assets/materialer.svg);
 }
 
 #skema {
-    width: 109.92px;
-    height: 109.92px;
-    background-color: red;
-    margin: 2px 2px 2px 2px;
+    width: 29.312vw;
+    height: 29.312vw;
+    margin: 1vw 1vw 1vw 1vw;
     background-image: url(assets/skema.svg);
 }
 
 #notifikationer {
-    width: 109.92px;
-    height: 109.92px;
-    background-color: red;
-    margin: 2px 2px 2px 2px;
+    width: 29.312vw;
+    height: 29.312vw;
+    margin: 1vw 1vw 1vw 1vw;
     background-image: url(assets/notifikationer.svg);
 
 }
 
 #techlounge {
-    width: 223.84px;
-    height: 109.92px;
-    background-color: red;
-    margin: 2px 2px 2px 2px;
+    width: 59.69vw;
+    height: 29.312vw;
+    margin: 1vw 1vw 1vw 1vw;
     background-image: url(assets/techlounge.svg);
 }
 
 #mail {
-    width: 109.92px;
-    height: 109.92px;
-    background-color: red;
-    margin: 2px 2px 2px 2px;
+    width: 29.312vw;
+    height: 29.312vw;
+    margin: 1vw 1vw 1vw 1vw;
     background-image: url(assets/mail.svg);
 }
 
+#favoritter {
+    width: 29.312vw;
+    height: 29.312vw;
+    margin: 1vw 1vw 1vw 1vw;
+    background-image: url(assets/favoritter.svg);
+}
+
+#grupper {
+    width: 29.312vw;
+    height: 29.312vw;
+    margin: 1vw 1vw 1vw 1vw;
+    background-image: url(assets/grupper.svg);
+}
+
+#chat {
+    width: 29.312vw;
+    height: 29.312vw;
+    margin: 1vw 1vw 1vw 1vw;
+    background-image: url(assets/chat.svg);
+}
+
 #aktuelt {
-    width: 223.84px;
-    height: 223.84px;
-    background-color: red;
-    margin: 2px 2px 2px 2px;
+    width: 58.624vw;
+    height: 58.624vw;
+    margin: 1vw 1vw 1vw 1vw;
     background-image: url(assets/aktuelt.svg);
 }
 
 #afleveringer {
-    width: 109.92px;
-    height: 109.92px;
-    background-color: red;
-    margin: 4px 2px 2px 2px;
+    width: 29.312vw;
+    height: 29.312vw;
+    margin: 1vw 1vw 1vw 1vw;
     background-image: url(assets/afleveringer.svg);
 }
 
 #soeg {
-    width: 109.92px;
-    height: 109.92px;
-    background-color: red;
-    margin: 2px 2px 4px 2px;
+    width: 29.312vw;
+    height: 29.312vw;
+    margin: 1vw 1vw 1vw 1vw;
     background-image: url(assets/soeg.svg);
 }
 
 #random1 {
-    width: 109.92px;
-    height: 109.92px;
-    background-color: red;
-    margin: 2px 2px 2px 2px;
+    width: 29.312vw;
+    height: 29.312vw;
+    margin: 1vw 1vw 1vw 1vw;
     background-image: url(assets/random.svg);
 }
 
 #random2 {
-    width: 109.92px;
-    height: 109.92px;
-    background-color: red;
-    margin: 2px 2px 2px 2px;
+    width: 29.312vw;
+    height: 29.312vw;
+    margin: 1vw 1vw 1vw 1vw;
     background-image: url(assets/random.svg);
 }
 
 #random3 {
-    width: 109.92px;
-    height: 109.92px;
-    background-color: red;
-    margin: 2px 2px 2px 2px;
+    width: 29.312vw;
+    height: 29.312vw;
+    margin: 1vw 1vw 1vw 1vw;
     background-image: url(assets/random.svg);
 }
+
+/******Nav********/
+nav {
+    width: 100vw;
+    height: 16.410vw;
+    background-color: #EA5045;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#nav-left {
+    margin-top: 5vw;
+    width: 60vw;
+    height: 16.410vw;
+    margin-left: 5vw;
+}
+
+#nav-right {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    width: 30vw;
+    height: 16.410vw;
+    margin-top: 5vw;
+    margin-right: 5vw;
+}
+
+nav #profilknap {
+    margin-right: 10vw;
+}
+
+
+
+/******Burger Menu*******/
+
+.hidden {
+    /*    display: none;*/
+    /*    transform: scale(0);*/
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+#menu {
+    position: absolute;
+    top: 11vw;
+    left: 0;
+    width: 100vw;
+    height: 80vh;
+    background-color: #3F3140;
+    list-style-type: none;
+}
+
+#menu a {
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+    color: #F58E81;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+#menuliste {
+    text-align: center;
+    width: 100vw;
+}
+
+#logud {
+    width: 100vw;
+    background-color: grey;
+}
+
+@media only screen and (min-width: 600px) {
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {
+        display: inline-block;
+    }
+}
+
 
 /************log-in page CSS************/
 
@@ -203,13 +327,14 @@ ul.list li input[name="Facebook"] {
 }
 
 #skema-info .col-left {
-    width: 50vw;
+    margin-left: 2vw;
+    width: 65vw;
     margin-top: 2vw;
 
 }
 
 #skema-info .col-right {
-    width: 50vw;
+    width: 30vw;
     margin-top: 2vw;
     display: flex;
     flex-direction: column;
@@ -221,7 +346,13 @@ ul.list li input[name="Facebook"] {
 }
 
 #skema-info h3 {
+    color: #707070;
     margin-bottom: 9px;
+}
+
+
+#skema-info p {
+    color: #707070;
 }
 
 #skema-top {
@@ -230,14 +361,16 @@ ul.list li input[name="Facebook"] {
 }
 
 #skema-top .col-left {
+    margin-top: 2vw;
     width: 40vw;
-    height: 66.22px;
+    height: 17.66vw;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
 }
 
 #skema-top .col-midt {
+    margin-top: 2vw;
     width: 20vw;
     height: 66.22px;
     color: white;
@@ -245,24 +378,9 @@ ul.list li input[name="Facebook"] {
 }
 
 #skema-top .col-right {
+    margin-top: 2vw;
     width: 40vw;
-    height: 66.22px;
-}
-
-#skema-top .col-left-sprite {
-    width: 8vw;
-    height: 8vw;
-    background-image: url(assets/left-arrow.svg);
-    background-size: contain;
-    margin-top: 4vw;
-}
-
-#skema-top .col-right-sprite {
-    width: 8vw;
-    height: 8vw;
-    background-image: url(assets/right-arrow.svg);
-    background-size: contain;
-    margin-top: 4vw;
+    height: 17.66vw;
 }
 
 
@@ -302,6 +420,21 @@ ul.list li input[name="Facebook"] {
     background-color: lightgoldenrodyellow;
 }
 
+.modul h3 {
+    margin-top: 2vw;
+    margin-left: 2vw;
+}
+
+.modul h4 {
+    margin-top: 2vw;
+    margin-left: 2vw;
+}
+
+.modul p {
+    margin-top: 2vw;
+    margin-left: 2vw;
+}
+
 #skema-bund {
     width: 375px;
     height: 66.22px;
@@ -316,6 +449,12 @@ ul.list li input[name="Facebook"] {
     height: 8vw;
     margin-top: 4vw;
     color: white;
+    margin-top: 6.5vw;
+}
+
+#skema-bund .skema-icon {
+    margin-top: 6vw;
+    margin-right: 2vw;
 }
 
 /******Table i Skema*********/
@@ -323,8 +462,10 @@ ul.list li input[name="Facebook"] {
 table,
 th,
 td {
+    font-family: 'Roboto', sans-serif;
     border: 1px solid #E2E8ED;
     border-collapse: collapse;
+    color: grey;
 }
 
 th,
@@ -372,7 +513,7 @@ td.right {
 }
 
 #modul2 {
-    top: 85vw;
+    top: 86vw;
     left: 21vw;
     position: absolute;
     background-color: #F2F1F0;
@@ -382,7 +523,7 @@ td.right {
 }
 
 #modul3 {
-    top: 131vw;
+    top: 133.5vw;
     left: 21vw;
     position: absolute;
     background-color: #F2F1F0;
@@ -422,6 +563,33 @@ td.right {
     background-image: url(assets/Folder.svg);
 }
 
+.profil-icon {
+    width: 7vw;
+    height: 7vw;
+    background-image: url(assets/Profile.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu-icon {
+    display: inline-block;
+    width: 7vw;
+    height: 7vw;
+    background-image: url(assets/Menu.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-icon {
+    width: 24vw;
+    height: 6vw;
+    background-image: url(assets/navlogo.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
 .link-icon {
     width: 5vw;
     height: 5.2vw;
@@ -435,9 +603,25 @@ td.right {
 }
 
 .skema-icon {
+    width: 4.5vw;
+    height: 5.7vw;
+    background-image: url(assets/skema-icon.svg);
+}
+
+.arrow-l-icon {
     width: 5vw;
     height: 5vw;
-    background-image: url(assets/skema-icon.svg);
+    background-image: url(assets/left-arrow.svg);
+    background-size: contain;
+    margin-top: 4vw;
+}
+
+.arrow-r-icon {
+    width: 5vw;
+    height: 5vw;
+    background-image: url(assets/right-arrow.svg);
+    background-size: contain;
+    margin-top: 4vw;
 }
 
 /*Materialer*/
@@ -478,18 +662,18 @@ td.right {
 
 #materialer1-knap1 {
     position: relative;
-    left: 75vw;
-    top: 3vw;
+    left: 76vw;
+    top: 1vw;
 }
 
 #materialer2-knap1 {
     position: relative;
-    left: 75vw;
-    top: -3vw;
+    left: 76vw;
+    top: 1vw;
 }
 
 #materialer3-knap1 {
     position: relative;
-    left: 75vw;
-    top: 3vw;
+    left: 76vw;
+    top: 1vw;
 }

@@ -302,13 +302,6 @@ ul.list li input[name="Facebook"] {
     background-color: lightgoldenrodyellow;
 }
 
-.break {
-    width: 100vw;
-    height: 5vw;
-    background-color: #FAF7F7;
-    border-bottom: 1px solid #E2E8ED;
-}
-
 #skema-bund {
     width: 375px;
     height: 66.22px;
@@ -331,4 +324,111 @@ ul.list li input[name="Facebook"] {
     height: 8vw;
     margin-top: 4vw;
     color: white;
+}
+
+/******Table i Skema*********/
+
+table,
+th,
+td {
+    border: 1px solid #E2E8ED;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 20px;
+}
+
+table#t01 {
+    width: 100%;
+
+}
+
+table#t01 tr:nth-child(even) {
+    background-color: #fff;
+}
+
+table#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+td.break {
+    padding: 10px;
+    background-color: #FAF7F7;
+    border: 1px solid #E2E8ED;
+}
+
+td.left {
+    width: 20vw;
+}
+
+td.right {
+    width: 80vw;
+}
+
+/*****Moduler********/
+
+#modul1 {
+    top: 38vw;
+    left: 21vw;
+    position: absolute;
+    background-color: #F2F1F0;
+    width: 72vw;
+    height: 42vw;
+
+}
+
+#modul2 {
+    top: 85vw;
+    left: 21vw;
+    position: absolute;
+    background-color: #F2F1F0;
+    width: 72vw;
+    height: 42vw;
+
+}
+
+#modul3 {
+    top: 131vw;
+    left: 21vw;
+    position: absolute;
+    background-color: #F2F1F0;
+    width: 72vw;
+    height: 21vw;
+}
+
+#modul1-folder {
+    background-image: url(assets/Folder.svg);
+    position: relative;
+    left: 62vw;
+    top: -10vw;
+}
+
+#modul1-link {
+    background-image: url(assets/Folder.svg);
+    position: relative;
+    left: 62vw;
+    top: -5vw;
+}
+
+#modul2-link {
+    background-image: url(assets/Folder.svg);
+    position: relative;
+    left: 62vw;
+    top: -10vw;
+}
+
+#modul3-folder {
+    background-image: url(assets/Folder.svg);
+    position: relative;
+    left: 62vw;
+    top: -10vw;
+}
+
+/*****Icons*******/
+
+.icon {
+    width: 5vw;
+    height: 4vw;
 }

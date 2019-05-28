@@ -209,9 +209,10 @@ nav #profilknap {
     top: 16vw;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 750px;
     background-color: #3F3140;
     list-style-type: none;
+    z-index: 100;
 }
 
 #menu a {
@@ -220,6 +221,14 @@ nav #profilknap {
     color: #F58E81;
     font-size: 1.5em;
     text-decoration: none;
+}
+
+#menu-logo {
+    margin-left: 33.104vw;
+    background-image: url(assets/Menu%20logo.svg);
+    width: 33.792vw;
+    height: 8.530vw;
+    background-size: cover;
 }
 
 #menuliste {
@@ -233,6 +242,13 @@ nav #profilknap {
     width: 100vw;
     background-color: #F58E81;
     height: 16vw;
+    text-align: center;
+}
+
+#logud a {
+    font-family: 'Roboto-bold', sans-serif;
+    font-size: 1.2em;
+    color: white;
 
 }
 
@@ -296,6 +312,18 @@ ul.list li input {
     border-radius: 10px;
     text-align: center;
     color: #EA5045;
+    font-family: 'roboto', 'sans-serif';
+}
+
+#huskmig {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    margin-bottom: 30vw;
+}
+
+ul.list li input[name="Husk"] {
+    width: 5vw;
 }
 
 ul.list li input[name="Submit"] {
@@ -308,6 +336,12 @@ ul.list li input[name="Facebook"] {
     background-color: #fff;
     color: #EA5045;
     border: 2px solid #EA5045;
+}
+
+ul.list a {
+    font-family: 'roboto-bold', 'sans-serif';
+    color: #EA5045;
+
 }
 
 /********Skema CSS**********/
@@ -509,8 +543,8 @@ td.right {
 /*****Moduler********/
 
 #modul1 {
-    top: 38vw;
-    left: 21vw;
+    top: 55vw;
+    left: 21.5vw;
     position: absolute;
     background-color: #F2F1F0;
     width: 72vw;
@@ -519,8 +553,8 @@ td.right {
 }
 
 #modul2 {
-    top: 86vw;
-    left: 21vw;
+    top: 102.5vw;
+    left: 21.5vw;
     position: absolute;
     background-color: #F2F1F0;
     width: 72vw;
@@ -529,8 +563,8 @@ td.right {
 }
 
 #modul3 {
-    top: 133.5vw;
-    left: 21vw;
+    top: 150.5vw;
+    left: 21.5vw;
     position: absolute;
     background-color: #F2F1F0;
     width: 72vw;
@@ -638,7 +672,7 @@ td.right {
 }
 
 #materialer1 {
-    top: 45vw;
+    top: 65vw;
     left: 8vw;
     position: absolute;
     background-color: #F2F1F0;
@@ -648,7 +682,7 @@ td.right {
 }
 
 #materialer2 {
-    top: 75vw;
+    top: 95vw;
     left: 8vw;
     position: absolute;
     background-color: #F2F1F0;
@@ -658,7 +692,7 @@ td.right {
 }
 
 #materialer3 {
-    top: 105vw;
+    top: 125vw;
     left: 8vw;
     position: absolute;
     background-color: #F2F1F0;

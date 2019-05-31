@@ -50,16 +50,16 @@ p {
     background-size: 100%;
     display: flex;
     flex-wrap: wrap;
-    align-content: space-around;
+    justify-content: center;
 }
 
 /*************Forside CSS************/
 
 #forside {
-    /*
-    margin-top: 4.5vw;
-    margin-left: 4.5vw;
-*/
+
+    /*    margin-top: 4.5vw;*/
+    /*    margin-left: 4vw;*/
+
 }
 
 #materialer {
@@ -627,7 +627,6 @@ td.right {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 
 
 .link-icon {
